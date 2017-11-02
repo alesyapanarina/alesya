@@ -1,0 +1,169 @@
+body{
+  
+
+/*	background-image: url(temn.jpg);*/
+background: url(temn.jpg) no-repeat ;
+
+	background-size: cover;
+  text-align: center;
+}
+img.slider{
+
+}
+table, th, td { 
+  font-size: 30px;
+text-align: center;
+  border: 1px solid   #9400D3;
+color: #EECFA1; }
+th{
+  font-size: 35px;
+}
+table {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.ii  {
+  margin-top: 0px;
+border-radius: 50%;
+    border: 5px solid yellow;
+    height: 500px;
+    float: right;
+   }
+   img.but {
+  margin-top: 0px;
+    border: 0px solid yellow;
+    height: 30px;
+    width: 30px;
+    
+  }
+   img.kino {
+z-index: 0;
+  margin-top: 0px;
+    border: 0px solid yellow;
+    height: 100px;
+    width: 100%;
+    opacity: 0.5;
+   }
+   button{
+  border: 0px;
+  float: right;
+border-radius: 5px;
+  position: inherit;
+  background: rgb(10,5,1); 
+}
+   img.logo {
+    border: 1px solid yellow;
+    height: 65px;
+    width: 65px;
+   }
+ img {
+border-radius: 10px;
+    border: 3px solid white;
+    height: 700px;
+
+   }
+
+  
+   #navbar {
+    z-index: 10;
+  margin: 76px;
+  padding: 10px;
+  list-style-type: none;
+  border: 1px solid orange;
+  border-radius: 20px 5px;
+  width: 80%;
+  text-align: center;
+font-family: Verdana, Helvetica, Arial, sans-serif;
+  background-color:   rgb(167,78,20);
+}
+#navbar {
+  margin: 0;
+  padding: 0;}
+
+#navbar a {
+  padding: 5px 25px;
+  text-decoration: overline;
+ 
+  width: 0.5%;
+}
+.menu ul li{
+  padding: 10px;
+}
+.menu ul > li:hover{
+   border-radius: 20px 5px;
+  background-color: #f96;
+}
+.menu ul ul > li:hover{
+  background-color: #f96;
+}
+.menu ul li, .menu ul{
+  display: inline-block;
+}
+.menu ul{
+ position: relative;
+  margin: 0;
+  padding: 0;
+  background-color: #f63;
+}
+.menu ul ul{
+  display: none;
+  position: absolute;
+  background-color: rgb(167,78,20);
+  margin-top: 10px;
+ margin-left: -10px;
+}
+.menu ul a{
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+.menu ul ul a{
+  color: #fff;
+  text-decoration: none;
+}
+.menu li:hover ul{
+  display: block;
+}
+
+.menu li:hover li{
+  display: block;
+}
+
+#slider{
+  width: 100%;
+  z-index: 0;
+}
+p.tabl{
+  font-size: 20px;
+}
+
+#film li { display: block; }
+#film {
+  font-size: 30px;
+}
+ object{
+  z-index: 0;
+ }
+ #models{
+  z-index: 0;
+ }
+a {
+    color: red; /* Цвет ссылок */
+   }
+   A:visited {
+    color: #cecece; /* Цвет посещенных ссылок */
+   }
+   A:active {
+    color: #ffff00; /* Цвет активных ссылок */
+   }
+div.film{
+  width: 500px;
+  text-align: center;
+}
+table.film {
+  border: 0px solid red;
+}
+img.film{
+  height: 300px;
+}
